@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-29T13:15:47 IST" name="Suite" finished-at="2021-10-29T13:16:19 IST" duration-ms="31473">
+    <groups>
+    </groups>
+    <test started-at="2021-10-29T13:15:47 IST" name="verify" finished-at="2021-10-29T13:15:56 IST" duration-ms="8342">
+      <class name="com.mindtree.pageobject.verifytitle">
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:com.mindtree.pageobject.verifytitle@a8c1f44]" started-at="2021-10-29T13:15:47 IST" name="loadpage" finished-at="2021-10-29T13:15:54 IST" duration-ms="6404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="mainpage()[pri:0, instance:com.mindtree.pageobject.verifytitle@a8c1f44]" started-at="2021-10-29T13:15:54 IST" name="mainpage" finished-at="2021-10-29T13:15:55 IST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainpage -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.mindtree.pageobject.verifytitle@a8c1f44]" started-at="2021-10-29T13:15:56 IST" name="terminate" finished-at="2021-10-29T13:15:56 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.mindtree.pageobject.verifytitle -->
+    </test> <!-- verify -->
+    <test started-at="2021-10-29T13:15:56 IST" name="book" finished-at="2021-10-29T13:16:12 IST" duration-ms="16300">
+      <class name="com.mindtree.pageobject.bookappointment">
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:com.mindtree.pageobject.bookappointment@9ed238c]" started-at="2021-10-29T13:15:56 IST" name="loadpage" finished-at="2021-10-29T13:16:00 IST" duration-ms="4136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="mainpage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mindtree.pageobject.bookappointment@9ed238c]" started-at="2021-10-29T13:16:00 IST" name="mainpage" data-provider="getDataa" finished-at="2021-10-29T13:16:12 IST" duration-ms="11984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gagan Karthik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gagan@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567899]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainpage -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.mindtree.pageobject.bookappointment@9ed238c]" started-at="2021-10-29T13:16:12 IST" name="terminate" finished-at="2021-10-29T13:16:12 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.mindtree.pageobject.bookappointment -->
+    </test> <!-- book -->
+    <test started-at="2021-10-29T13:16:12 IST" name="contact" finished-at="2021-10-29T13:16:19 IST" duration-ms="6779">
+      <class name="com.mindtree.pageobject.contact">
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:com.mindtree.pageobject.contact@4d098f9b]" started-at="2021-10-29T13:16:12 IST" name="loadpage" finished-at="2021-10-29T13:16:16 IST" duration-ms="3744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="mainpage()[pri:0, instance:com.mindtree.pageobject.contact@4d098f9b]" started-at="2021-10-29T13:16:16 IST" name="mainpage" finished-at="2021-10-29T13:16:18 IST" duration-ms="2661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainpage -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.mindtree.pageobject.contact@4d098f9b]" started-at="2021-10-29T13:16:19 IST" name="terminate" finished-at="2021-10-29T13:16:19 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.mindtree.pageobject.contact -->
+    </test> <!-- contact -->
+  </suite> <!-- Suite -->
+</testng-results>

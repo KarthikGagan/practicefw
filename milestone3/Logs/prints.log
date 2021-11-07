@@ -1,0 +1,4 @@
+11:45:55.391 [main] INFO  com.mindtree.reusablecomponents.ReadPropertiesFile - Page loaded Successfully
+11:46:08.322 [main] INFO  com.mindtree.reusablecomponents.ReadPropertiesFile - Services Page loaded Successfully
+11:46:08.381 [main] INFO  com.mindtree.reusablecomponents.ReadPropertiesFile - Verified the page
+11:46:12.554 [main] INFO  com.mindtree.reusablecomponents.ReadPropertiesFile - Closed the browser
